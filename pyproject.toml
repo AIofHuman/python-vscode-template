@@ -1,16 +1,13 @@
-[tool.ruff]
+[tool.black]
 line-length = 80
 
 [tool.ruff.format]
 quote-style = "single"
 
-[tool.pdm]
-distribution = false
-
 [project]
-name = "mlops-course"
+name = "python-template-project"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "Template for python ML projects"
 authors = [
     {name = "Demkov Boris", email = "demkov.boris@gmail.com"},
 ]
@@ -87,7 +84,6 @@ dependencies = [
     "yarg==0.1.9",
     "zipp==3.18.1",
 ]
-requires-python = "==3.11.*"
+requires-python = "==3.13.*"
 readme = "README.md"
 license = {text = "MIT"}
-
